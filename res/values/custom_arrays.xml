@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+<<<<<<< HEAD
      Copyright (C) 2012-2015 The CyanogenMod Project
+=======
+     Copyright (C) 2018 The Liquid Remix Project
+>>>>>>> 9466430ce3... Night Light brightness mode options [2/2]
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,6 +19,7 @@
      limitations under the License.
 -->
 <resources>
+
     <!-- Fingerprint sensor locations.  Devices should configure their sensor location using
          config_fingerprintSensorLocation -->
     <string-array name="security_settings_fingerprint_sensor_locations" translatable="false">
@@ -22,6 +27,21 @@
         <item>@string/security_settings_fingerprint_enroll_find_sensor_message_front</item>
         <item>@string/security_settings_fingerprint_enroll_find_sensor_message_left</item>
         <item>@string/security_settings_fingerprint_enroll_find_sensor_message_right</item>
+    </string-array>
+
+    <!-- Night mode tile brightness value  -->
+    <string-array name="night_brightness_value_entries" translatable="false">
+        <item>@string/night_bright_disabled</item>
+        <item>@string/night_bright_minimum</item>
+        <item>@string/night_bright_low</item>
+        <item>@string/night_bright_medium</item>
+    </string-array>
+
+    <string-array name="night_brightness_value_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 
     <!-- SystemUI theme -->
