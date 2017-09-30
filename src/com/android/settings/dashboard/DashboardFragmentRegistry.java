@@ -40,6 +40,8 @@ import com.android.settings.security.SecuritySettings;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
 
+import com.franken.lab.LabSettings;
+
 import java.util.Map;
 
 /**
@@ -101,6 +103,8 @@ public class DashboardFragmentRegistry {
             CategoryKey.CATEGORY_GESTURES);
         PARENT_TO_CATEGORY_KEY_MAP.put(NightDisplaySettings.class.getName(),
             CategoryKey.CATEGORY_NIGHT_DISPLAY);
+	PARENT_TO_CATEGORY_KEY_MAP.put(LabSettings.class.getName(),
+            CategoryKey.CATEGORY_FRANKEN);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 

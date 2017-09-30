@@ -22,6 +22,10 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
 
+    <!-- Lab -->
+    <string name="lab_title">Lab</string>
+    <string name="lab_activity_summary">Customize franken style</string>
+
     <!-- Phone info -->
     <string name="device_info_title">Phone info</string>
 
