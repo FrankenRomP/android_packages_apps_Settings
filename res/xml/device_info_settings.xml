@@ -21,6 +21,12 @@
     android:key="device_info_pref_screen"
     android:title="@string/about_settings">
 
+    <!-- FrankenRom version -->
+    <Preference
+        android:key="franken_version"
+        android:title="@string/franken_version"
+        android:summary="@string/device_info_default" />
+
     <!-- Phone number -->
     <Preference
         android:key="phone_number"
