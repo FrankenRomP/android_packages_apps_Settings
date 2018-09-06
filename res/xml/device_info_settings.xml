@@ -21,11 +21,6 @@
     android:key="device_info_pref_screen"
     android:title="@string/about_settings">
 
-    <!-- FrankenRom about -->
-    <PreferenceScreen
-        android:key="franken_logo"
-	    android:layout="@layout/franken_logo" />
-
     <!-- FrankenRom version -->
     <Preference
         android:key="franken_version"
