@@ -138,6 +138,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.franken.lab.LabSettings;
+import com.franken.lab.notification.HeadsUpCategory;
 
 public class SettingsGateway {
 
@@ -264,6 +265,7 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             LabSettings.class.getName(),
+            HeadsUpCategory.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

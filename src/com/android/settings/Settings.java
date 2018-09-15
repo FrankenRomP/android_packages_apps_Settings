@@ -164,6 +164,7 @@ public class Settings extends SettingsActivity {
     public static class StorageDashboardActivity extends SettingsActivity {}
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
+    public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
 
 	// Franken settings
     public static class LabSettingsActivity extends SettingsActivity {}
