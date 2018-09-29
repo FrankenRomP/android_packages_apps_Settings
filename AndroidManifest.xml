@@ -3178,7 +3178,8 @@
 
 	<activity android:name=".Settings$LabSettingsActivity"
                   android:label="@string/lab_title"
-                  android:icon="@drawable/ic_settings_franken">
+                  android:icon="@drawable/ic_homepage_franken"
+                  android:taskAffinity="com.android.settings">
             <intent-filter android:priority="10">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
