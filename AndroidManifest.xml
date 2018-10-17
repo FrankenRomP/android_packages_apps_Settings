@@ -3340,6 +3340,8 @@
         <service android:name=".fuelgauge.batterytip.AnomalyDetectionJobService"
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name="com.franken.lab.recent.HAFRAppListActivity" />
 
          <!-- Heads up settings activity. -->
         <activity android:name="Settings$HeadsUpSettingsActivity"
