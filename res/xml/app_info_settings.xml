@@ -181,4 +181,10 @@
         settings:controller="com.android.settings.applications.appinfo.AppPackageNamePreferenceController"
         settings:allowDividerAbove="true" />
 
+    <com.franken.lab.preference.SystemSettingSwitchPreference
+        android:key="sensor_block"
+        android:title="@string/sensor_block_title"
+        android:summary="@string/sensor_block_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
