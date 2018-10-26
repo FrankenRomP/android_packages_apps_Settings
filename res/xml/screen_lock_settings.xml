@@ -37,6 +37,12 @@
         android:title="@string/unlock_quick_unlock_control_title"
         android:summary="@string/unlock_quick_unlock_control_summary" />
 
+    <com.franken.lab.preference.SystemSettingSwitchPreference  
+        android:key="fp_unlock_keystore" 
+        android:title="@string/fp_unlock_keystore_title" 
+        android:summary="@string/fp_unlock_keystore_summary" 
+        android:defaultValue="false" />
+
     <!-- available in pin/pattern/password -->
     <com.android.settings.TimeoutListPreference
         android:key="lock_after_timeout"
