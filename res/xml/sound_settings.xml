@@ -85,6 +85,11 @@
         settings:controller="com.android.settings.notification.VibrateWhenRingPreferenceController"
         android:order="-130"/>
 
+    <com.franken.lab.preference.SystemSettingSwitchPreference 
+        android:key="incall_notifications_vibrate" 
+        android:title="@string/incall_notifications_vibrate" 
+        android:defaultValue="false" /> 
+
     <!-- Interruptions -->
     <com.android.settingslib.RestrictedPreference
         android:key="zen_mode"
