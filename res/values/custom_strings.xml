@@ -125,4 +125,7 @@
     <string name="less_notification_sounds_2m">Every 2 minutes</string>
     <string name="less_notification_sounds_5m">Every 5 minutes</string>
 
+    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action.</string>
+
 </resources>
